@@ -7,7 +7,7 @@
     </div>
 
     <div class="col">
-      <label><b>Name</b></label>
+      <label><b>Name (title case)</b></label>
       <div>
         {{name | titlecase}}
       </div>
@@ -49,7 +49,7 @@
     </div>
 
     <div class="col">
-      <label><b>Fuel consumed (l)</b></label>
+      <label><b>Fuel consumed (l), max 2 decimals</b></label>
       <div>
         {{fuelConsumed | number: '1.0-2'}}
       </div>
